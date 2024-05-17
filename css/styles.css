@@ -44,14 +44,6 @@ letter-spacing: 0.02em;
 color: #404bbf;
 }
 
-.navigation-item-studio{
-color: #2e2f42;
-}
-.navigation-item-studio:hover,
-.navigation-item-studio:focus{
-    color: #404bbf;
-}
-
 .address {font-style: normal}
 
 .address-item {
@@ -104,14 +96,11 @@ font-weight: 500;
 font-size: 16px;
 line-height: 150%;
 letter-spacing: 0.04em;
-    color: #ffffff;
+color: #ffffff;
 background:#404bbf;
 cursor: pointer;
 }
-
-
 .section-feature-subtitle {
-font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 20px;
 line-height: 120%;
@@ -119,14 +108,11 @@ letter-spacing: 0.02em;
 color:  #2e2f42;
 }
 .section-feature-text {
-font-family: "Roboto", sans-serif;
-font-weight: 400;
 font-size: 16px;
 line-height: 150%;
 letter-spacing: 0.02em;
 color: #434455;
 }
-
 .section-team {background-color: #F4F4FD}
 .section-team-title {
 font-family: "Roboto", sans-serif;
