@@ -25,7 +25,7 @@ color: #4d5ae5
 color: #2e2f42;
 }
 
-.navigation-item{
+.navigation-item-studio{
     font-family: "Raleway", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -34,8 +34,8 @@ color: #2e2f42;
     color: #2e2f42;  
 }
 
-.navigation-item:hover,
-.navigation-item:focus {
+.navigation-item-studio:hover,
+.navigation-item-studio:focus {
 font-family: "Raleway", sans-serif;
 font-weight: 500;
 font-size: 16px;
@@ -51,6 +51,8 @@ color: #2e2f42;
 .navigation-item-studio:focus{
     color: #404bbf;
 }
+
+.address {font-style: normal}
 
 .address-item {
 font-style: normal;
@@ -91,8 +93,8 @@ background:#2e2f42;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.04em
-    color: #fff;
+    letter-spacing: 0.04em;
+    color: #ffffff;
     background: #4d5ae5;
 }
 .section-hero-button:hover,
@@ -102,7 +104,7 @@ font-weight: 500;
 font-size: 16px;
 line-height: 150%;
 letter-spacing: 0.04em;
-color: #fff;
+    color: #ffffff;
 background:#404bbf;
 cursor: pointer;
 }
