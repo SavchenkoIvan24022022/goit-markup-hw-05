@@ -104,27 +104,68 @@ text-align: center;
 color: #2e2f42;
 }
 
-.section-team-item {
-}
 .section-team-img {
+width: 264px;
+height: 260px;
+background: url("path_to_image");
 }
-.section-team-subtitel {
+.section-team-subtitle {
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 20px;
+line-height: 120%;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
 }
 .section-team-text {
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.02em;
+text-align: center;
+color: #434455;
 }
 
+.section-portfolio-title {
+font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-size: 36px;
+line-height: 111%;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+}
 
-.section-portfolio {
-}
-.section-portfolio-titel {
-}
-.section-portfolio-list {
-}
-.section-portfolio-item {
-}
 .section-portfolio-image {
+width: 360px;
+height: 300px;
+background: url("path_to_image");
 }
-.subtitel {
+.subtitle {
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 20px;
+line-height: 120%;
+letter-spacing: 0.02em;
+color:  #2e2f42;
 }
 .section-portfolio-text {
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.02em;
+color: #434455;
 }
+
+.footer-text {
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.02em;
+color: #f4f4fd;
+}
+
