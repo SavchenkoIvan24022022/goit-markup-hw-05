@@ -25,8 +25,9 @@ color: #4d5ae5
 color: #2e2f42;
 }
 
-.navigation-item-studio{
-    font-family: "Raleway", sans-serif;
+.navigation-item-studio
+{
+    font-family: "Raleway",sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
@@ -35,8 +36,9 @@ color: #2e2f42;
 }
 
 .navigation-item-studio:hover,
-.navigation-item-studio:focus {
-font-family: "Raleway", sans-serif;
+.navigation-item-studio:focus 
+{
+font-family: "Raleway",sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 150%;
@@ -44,11 +46,11 @@ letter-spacing: 0.02em;
 color: #404bbf;
 }
 
-.address {font-style: normal}
+.address {font-style: normal;}
 
 .address-item {
 font-style: normal;
-font-family: "Roboto", sans-serif;
+font-family: "Roboto",sans-serif;
 font-weight: 400;
 font-size: 16px;
 line-height: 150%;
@@ -67,7 +69,7 @@ color: #434455;
 
 
 .section-hero {
-    background-color:#2e2f42
+    background-color:#2e2f42;
 }
 
 .section-hero-title {
@@ -81,7 +83,7 @@ color: #fff;
 background:#2e2f42;
 }
 .section-hero-button {
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto",sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -107,14 +109,16 @@ line-height: 120%;
 letter-spacing: 0.02em;
 color:  #2e2f42;
 }
-.section-feature-text {
+.section-feature-text 
+{
 font-size: 16px;
 line-height: 150%;
 letter-spacing: 0.02em;
 color: #434455;
 }
-.section-team {background-color: #F4F4FD}
-.section-team-title {
+.section-team {background-color: #F4F4FD;}
+.section-team-title 
+{
 font-family: "Roboto", sans-serif;
 font-weight: 700;
 font-size: 36px;
@@ -125,7 +129,8 @@ text-align: center;
 color: #2e2f42;
 }
 .section-team-item {
-background-color: #FFFFFF;}
+background-color: #FFFFFF;
+}
 
 .section-team-img {
 background: url("path_to_image");
@@ -162,7 +167,7 @@ color: #2e2f42;
 background: url("path_to_image");
 }
 .subtitle {
-font-family: "Roboto", sans-serif;
+font-family: "Roboto",sans-serif;
 font-weight: 500;
 font-size: 20px;
 line-height: 120%;
@@ -170,19 +175,19 @@ letter-spacing: 0.02em;
 color:  #2e2f42;
 }
 .section-portfolio-text {
-font-family: "Roboto", sans-serif;
+font-family: "Roboto",sans-serif;
 font-weight: 400;
 font-size: 16px;
 line-height: 150%;
 letter-spacing: 0.02em;
 color: #434455;
 }
-.footer {background-color:#2e2f42}
+.footer {background-color:#2e2f42;}
 .logo-web-footer {
 color: #f4f4fd;
 }
 .footer-text {
-font-family: "Roboto", sans-serif;
+font-family: "Roboto",sans-serif;
 font-weight: 400;
 font-size: 16px;
 line-height: 150%;
