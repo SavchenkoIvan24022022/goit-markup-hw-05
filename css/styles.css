@@ -1,20 +1,17 @@
-ul {
+body{
+    font-family: "roboto", sans-serif;
+    color: #434455;
+    background-color: #fff;
+}
+ul,ol {
     list-style-type: none;
 }
 a {
     text-decoration: none;
 }
 
-.header {
-}
-.navigation {
-width: 1440px;
-height: 72px;
-}
-
 .logo {
-width: 115px;
-height: 24px;
+font-family: "Raleway", sans-serif;
 font-weight: 700;
 font-size: 18px;
 line-height: 117%;
@@ -27,29 +24,107 @@ color: #2e2f42;
 .logo-web {
 color: #4d5ae5;;
 }
-.navigation-list {
-width: 261px;
-height: 24px;
+
+.navigation-item:hover,
+.navigation-item:focus {
+font-family: "Raleway", sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 150%;
 letter-spacing: 0.02em;
 color: #2e2f42;;
 }
-.navigation-item {
-}
+
 .address {
+    font-style: normal;
 }
-.address-list {
+.address-item:hover, 
+.address-item:focus
+ {
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #434455;
 }
-.address-item {
+
+.section-hero-title {
+
+font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-size: 56px;
+line-height: 107%;
+letter-spacing: 0.02em;
+text-align: center;
+color: #fff;
+background:#2e2f42;
 }
-.address-mail {
+.section-hero-button{font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    color:  #fff;
+    background: #4d5ae5;
 }
-.address-tel {
+.section-hero-button:hover,
+.section-hero-button:focus
+{
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.04em;
+color: #fff;
+background:#404bbf;
+cursor: pointer
+}
+.section-feature-subtitle {
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 20px;
+line-height: 120%;
+letter-spacing: 0.02em;
+color:  #2e2f42;
+}
+.section-feature-text {
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+.section-team-title {
+font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-size: 36px;
+line-height: 111%;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+}
+
+.section-team-item {
+}
+.section-team-img {
+}
+.section-team-subtitel {
+}
+.section-team-text {
+}
+
+
+.section-portfolio {
+}
+.section-portfolio-titel {
+}
+.section-portfolio-list {
+}
+.section-portfolio-item {
+}
+.section-portfolio-image {
+}
+.subtitel {
+}
+.section-portfolio-text {
 }
