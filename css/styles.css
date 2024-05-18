@@ -103,8 +103,8 @@ cursor: pointer;
 }
 
 .section-feature {background-color: #fff;}
-.section-feature-list {}
-.section-feature-item {}
+.section-feature-list {font-family:"Roboto",sans-serif;}
+.section-feature-item {font-family:"Roboto",sans-serif;}
 .section-feature-subtitle {font-family:"Roboto",sans-serif; 
     font-weight: 500;
     font-size: 20px;
@@ -117,7 +117,7 @@ cursor: pointer;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
-    color: color: #434455;
+    color: #434455;
 }
 
 
