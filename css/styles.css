@@ -60,19 +60,9 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 .address-item:hover{
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.02em;
     color: #404bbf;
 } 
 .address-item:focus{
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.02em;
     color: #404bbf;
 }
 .address-mail{color: #434455;}
