@@ -46,6 +46,15 @@ letter-spacing: 0.02em;
 color: #404bbf;
 }
 
+.studio-link {
+    color: #2e2f42;
+}
+.studio-link:hover,
+.studio-link:focus {
+    color: #404bbf;
+}
+
+
 .navigation-item
 {
     font-family: "Raleway",sans-serif;
@@ -76,7 +85,10 @@ color: #434455;
     letter-spacing: 0.02em;
     color: #404bbf;
 }
-
+.address-mail{color: #434455;}
+.address-tel{color: #434455;}
+.address-mail,.address-tel:hover
+.address-mail,.address-tel:focus{#404bbf;}
 
 .section-hero {
     background-color:#2e2f42;
