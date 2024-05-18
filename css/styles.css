@@ -59,7 +59,14 @@ line-height: 150%;
 letter-spacing: 0.02em;
 color: #434455;
 }
-.address-item:hover 
+.address-item:hover{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #404bbf;
+} 
 .address-item:focus{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -72,8 +79,12 @@ color: #434455;
 
 .address-tel{color: #434455;}
 
-.address-mail .address-tel:hover{color:#404bbf;}
-.address-mail .address-tel:focus{color:#404bbf;}
+.address-tel:hover{color:#404bbf;}
+.address-tel:focus{color:#404bbf;}
+
+.address-mail:hover{color:#404bbf;}
+.address-mail:focus {color:#404bbf;}
+
 
 .section-hero {
 background-color:#2e2f42;
