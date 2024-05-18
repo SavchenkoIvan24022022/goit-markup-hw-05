@@ -25,7 +25,7 @@ color: #4d5ae5
 color: #2e2f42;
 }
 
-.navigation-item-studio
+.navigation-item
 {
     font-family: "Raleway",sans-serif;
     font-weight: 500;
@@ -35,8 +35,8 @@ color: #2e2f42;
     color: #2e2f42;  
 }
 
-.navigation-item-studio:hover,
-.navigation-item-studio:focus 
+.navigation-item:hover,
+.navigation-item:focus 
 {
 font-family: "Raleway",sans-serif;
 font-weight: 500;
@@ -46,23 +46,12 @@ letter-spacing: 0.02em;
 color: #404bbf;
 }
 
-.studio-link {
+.nav-link {
     color: #2e2f42;
 }
-.studio-link:hover,
-.studio-link:focus {
-    color: #404bbf;
-}
-
-
-.navigation-item
-{
-    font-family: "Raleway",sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
+.nav-link:hover,
+.nav-link:focus {
+color: #404bbf;
 }
 
 .address {font-style: normal;}
@@ -86,12 +75,14 @@ color: #434455;
     color: #404bbf;
 }
 .address-mail{color: #434455;}
+
 .address-tel{color: #434455;}
-.address-mail,.address-tel:hover
-.address-mail,.address-tel:focus{#404bbf;}
+
+.address-mail,.address-tel:hover{color:#404bbf;}
+.address-mail,.address-tel:focus{color:#404bbf;}
 
 .section-hero {
-    background-color:#2e2f42;
+background-color:#2e2f42;
 }
 
 .section-hero-title {
