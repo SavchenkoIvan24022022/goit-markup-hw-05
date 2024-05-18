@@ -102,14 +102,9 @@ background:#404bbf;
 cursor: pointer;
 }
 
-.section-feature {
-width: 1128px;
-height: 104px;
-}
-.section-feature-list {
-}
-.section-feature-item {
-}
+.section-feature {background-color: #fff;}
+.section-feature-list {}
+.section-feature-item {}
 .section-feature-subtitle {font-family:"Roboto",sans-serif; 
     font-weight: 500;
     font-size: 20px;
