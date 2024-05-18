@@ -59,21 +59,12 @@ line-height: 150%;
 letter-spacing: 0.02em;
 color: #434455;
 }
-.address-item:hover{
-    color: #404bbf;
-} 
-.address-item:focus{
-    color: #404bbf;
-}
-.address-mail{color: #434455;}
+.address-item:hover{color: #404bbf;} 
+.address-item:focus{color: #404bbf;}
 
-.address-tel{color: #434455;}
-
-.address-tel:hover{color:#404bbf;}
-.address-tel:focus{color:#404bbf;}
-
-.address-mail:hover{color:#404bbf;}
-.address-mail:focus {color:#404bbf;}
+.address-link{color: #434455;}
+.address-link:hover{color:#404bbf;}
+.address-link:focus{color:#404bbf;}
 
 
 .section-hero {
