@@ -102,23 +102,25 @@ background:#404bbf;
 cursor: pointer;
 }
 
-.section-feature-item
-font-family: "Roboto",sans-serif;
-
-.section-feature-subtitle {
-font-weight: 500;
-font-size: 20px;
-line-height: 120%;
-letter-spacing: 0.02em;
-color:  #2e2f42;
+.section-feature {
 }
-
-.section-feature-text 
-{
-font-size: 16px;
-line-height: 150%;
-letter-spacing: 0.02em;
-color: #434455;
+.section-feature-list {
+}
+.section-feature-item {
+}
+.section-feature-subtitle {font-family:"Roboto",sans-serif; 
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color:#2e2f42;
+}
+.section-feature-text {font-family:"Roboto",sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: color: #434455;
 }
 
 
