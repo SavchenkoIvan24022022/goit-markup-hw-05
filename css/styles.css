@@ -383,7 +383,10 @@ color: #434455;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    text-decoration: none;
     display: flex;
+    margin-right: 76px;
+    padding: 24px 0;
     align-items: center;
     justify-content: flex-start;
     flex-direction: row;
@@ -392,10 +395,8 @@ color: #434455;
     margin-bottom: 16px;
 }
 
-.logo-web-footer {
-color: #f4f4fd;
+.logo-web-footer {color: #f4f4fd;}
 
-}
 .footer-text {
 font-family: "Roboto",sans-serif;
 font-weight: 400;
