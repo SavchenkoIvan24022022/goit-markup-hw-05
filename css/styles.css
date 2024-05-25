@@ -388,6 +388,8 @@ color: #434455;
     justify-content: flex-start;
     flex-direction: row;
     gap: 0px;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .logo-web-footer {
