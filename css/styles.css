@@ -177,6 +177,7 @@ max-width: 496px;
 margin-left: auto;
 margin-right: auto;
 margin-bottom: 48px;
+
 }
 
 .section-hero-button {
@@ -230,7 +231,7 @@ margin-bottom: 48px;
     display: flex; 
 }
 
-.section-feature-title .visually-hidden{
+.visually-hidden{
     position: absolute;
     width: 1px;
     height: 1px;
@@ -248,7 +249,10 @@ margin-bottom: 48px;
 
 .section-feature-item {
     width: calc((100% - 72px) / 4);
-    border-radius:0px 0px 4px 4px;
+    border-top-left-radius: 0px; 
+    border-top-right-radius: 0px ; 
+    border-top-right-radius: 4px; 
+    border-bottom-left-radius:4px;
 }
 
 .section-feature-subtitle {
@@ -360,7 +364,8 @@ color: #434455;
     width: calc((100% - 48px) / 3);
 }
 
-.section-portfolio-subtitle{margin-bottom: 8px;}
+.section-portfolio-subtitle {
+    margin-bottom: 8px;}
 
 .portfolio-list {
     padding: 32px 16px;
