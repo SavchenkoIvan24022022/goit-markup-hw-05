@@ -98,6 +98,18 @@ gap: 76px;
 padding: 24px 0;
 }
 
+.nav-link-hover::after{
+display: block;
+margin-top: 20px;
+position: absolute;
+justify-items: center;
+content:"";
+border-radius: 2px;
+width: 48px;
+height: 4px;
+background: #404bbf;
+}
+
 .nav-link:hover{
     font-weight: 500;
     font-size: 16px;
