@@ -261,6 +261,14 @@ margin-bottom: 48px;
     gap: 24px;
 }
 
+.icon-border{
+border: 1px solid #8e8f99;
+border-radius: 4px;
+width: 264px;
+height: 112px;
+background: #f4f4fd;
+}
+
 .section-feature-item {
     width: calc((100% - 72px) / 4);
     border-top-left-radius: 0px; 
@@ -345,6 +353,23 @@ line-height: 150%;
 letter-spacing: 0.02em;
 text-align: center;
 color: #434455;
+}
+
+.icons-social{
+    background-color:#4d5ae5 ;
+    fill:#f4f4fd;
+    border-radius:50 px ;
+
+}
+
+.icons-list{
+width: 232px;
+height: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 24px;
+flex-direction: row;
 }
 
 /* Portfolio styles */
