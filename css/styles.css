@@ -272,14 +272,15 @@ margin-bottom: 48px;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* opacity: 0;
+    opacity: 0;
     pointer-events: none;
-    transition: opacity 250ms ease-in-out; */
+    transition: opacity 250ms ease-in-out;
 }
 
 .modal-overlay.is-open{
     opacity: 1;
     pointer-events: auto;
+    visibility: visible;
 }
 
 .modal {
@@ -293,9 +294,20 @@ margin-bottom: 48px;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 24px;
+    overflow-y: auto;
 }
 
-
+.modal-field{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 8px;
+    border-radius: 4px;
+    width: 360px;
+    height: 336px;
+    padding: 0;
+}
 
 .modal-close-button{
     padding-top: 24px;
@@ -336,7 +348,7 @@ margin-bottom: 48px;
 }
 
 
-.modal-container{
+.modal-form{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -378,6 +390,8 @@ margin-bottom: 48px;
 
 }
 .user-name-icon{
+    width:18px;
+    height:24px:
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -695,6 +709,8 @@ color: #434455;
     background-color:#2e2f42;
     padding: 100px 0;
     display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .block-footer{
@@ -737,6 +753,7 @@ max-height: 74px;
 }
 
 .social-block{
+    margin-right: 80px;
 }
 
 .text-footer {
@@ -781,3 +798,35 @@ fill:#f4f4fd;
 
 .icons-social-footer:hover{
 background-color: #31D0AA;}
+
+.foter-e-mail{
+    display: flex;
+    gap: 24px;
+    
+}
+.foter-e-text{
+
+}
+
+.footer-buttom-send{
+border-radius: 4px;
+padding: 8px 24px;
+width: 165px;
+height: 40px;
+background: #4d5ae5;
+
+
+}
+
+.footer-icon-mail{
+    fill: #fff;
+}
+.footer-buttom-send{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #fff;
+}
