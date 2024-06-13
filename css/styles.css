@@ -615,6 +615,12 @@ background-color: #31D0AA;}
 }
 .footer-form{
     display: flex;
+    gap: 24px;
+}
+
+.input-box{
+    display: flex;
+    gap: 24px;
 }
 
 .footer-label{
