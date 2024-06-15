@@ -793,13 +793,16 @@ background-color: #31D0AA;}
     margin-bottom: 16px;
 }
 
+.modal-input-container{
+
+}
 
 .modal-form{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 8px;
+    gap: 24px;
     border-radius: 4px;
     width: 360px;
     height: 336px;
